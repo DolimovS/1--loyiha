@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+
+.container{
+    padding: 0  30px;
+}
+
+
+
+.section{
+    /* border: 2px solid red; */
+    background-color: grey;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.main{
+    height: 100%;
+    width: 270px;
+    /* border: 2px solid black; */
+    background: rgb(242, 234, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 27px;
+
+}
+.top .text h1{
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.top .img{
+    width: 141px;
+height: 214px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* border: 2px  dotted grey; */
+gap: 10px;
+
+}
+
+.top .img img{
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+}
+
+.top .img h1{
+    font-family: Montserrat;
+font-size: 17px;
+font-weight: 700;
+line-height: 20.72px;
+text-align: center;
+color: black;
+}
+
+
+
+
+/* bottom */
+
+.bottom{
+    width: 193px;
+height: 486px;
+/* border: 2px solid red; */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.bottom a
+
+{
+    display: flex;
+    gap: 19px;
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+padding: 13px 53px 11px 40px;
+border-radius: 4px;
+transition: 0.3s;
+}
+
+.bottom a:hover{
+    background: rgb(254, 175, 0);
+}
+
+
+/* aside */
+
+.aside{
+    height: 100%;
+    width: 1170px;
+    background: rgb(248, 248, 248);
+}
+
+.aside .nav{
+    width: 1170px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+}
+
+.search_form{
+    display: flex;
+    gap: 27px;
+}
+
+.search_form input{
+    width: 212px;
+height: 37px;
+padding-left:13px;
+border: 1px solid rgb(229, 229, 229);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+
+input::placeholder{
+    color: rgb(196, 196, 196);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.add_student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add_student p{
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.add_student button{
+    padding: 13px 27px 14px 26px;
+    border-radius: 4px;
+    background: rgb(254, 175, 0);
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+.table{
+    height: 773px;
+overflow:auto;
+}
+
+.table::-webkit-scrollbar {
+    display: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    /* border: 2px solid red; */
+}
+
+
+tr td:first-child {
+    border-top-left-radius: 8px; /* Chap yuqori burchak */
+}
+
+tr td:last-child {
+    border-top-right-radius: 8px; /* O'ng yuqori burchak */
+}
+
+tr td:first-child {
+    border-bottom-left-radius: 8px; /* Chap pastki burchak */
+}
+
+tr td:last-child {
+    border-bottom-right-radius: 8px; /* O'ng pastki burchak */
+}
+
+
+th,td{
+    color: rgb(172, 172, 172);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+padding: 22px 0;
+}
+
+
+
+thead th{
+    
+    background-color: none  ; 
+}
+tbody tr{
+    background-color: rgb(255, 255, 255);
+}
+tbody tr img{
+    width: 65px;
+    height: 55px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+tbody td {
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
